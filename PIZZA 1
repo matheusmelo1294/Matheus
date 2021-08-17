@@ -1,0 +1,166 @@
+print("**MENU PIZZA**")
+
+print("Olá, sou seu atendente virtual, pode me chamar de Ultron, irei lhe ajudar a fazer seu pedido, amigo (a)")
+
+print("Digite 1 - um sabor, digite 2 - dois sabores")
+sabor = int(input("Quantos sabores de pizza você vai querer? "))
+
+if sabor == 1:
+  print("UM SABOR")
+elif sabor == 2:
+  print("DOIS SABORES")
+else:
+  print("Opção Inválida")
+
+print("***Escolha o tamanho de sua pizza***")
+print("1 - GRANDE")
+print("2 - MÉDIA")
+print("3 - PEQUENA")
+
+size = int(input("Digite o número correspondente ao tamanho: "))
+
+if size == 1:
+  print("PIZZA GRANDE")
+elif size == 2:
+  print("PIZZA MÉDIA")
+elif size == 3:
+  print("MINI PIZZA")
+else:
+  print("Opção Inválida")
+
+print("Digite o número do sabor que deseja escolher: ")
+print("1 - CALABRESA")
+print("2 - FRANGO")
+print("3 - FRANGO COM CATUPIRY")
+print("4 - MUSSARELA")
+print("5 - ROMEU E JULIETA")
+print("6 - MARGUERITA")
+print("7 - BACON")
+print("8 - LOMBINHO")
+print("9 - LEITE CONDENSADO")
+print("10 - CARNE DO SOL")
+sabor1 = int(input("Digite o primeiro sabor: "))
+sabor2 = int(input("Digite o segundo sabor, caso tenha escolhido somente um sabor, digite zero: "))
+
+if sabor1 == 1:
+  print("CALABRESA")
+elif sabor1 == 2:
+  print("FRANGO")
+elif sabor1 == 3:
+  print("FRANGO COM CATUPIRY")
+elif sabor1 == 4:
+  print("MUSSARELA")
+elif sabor1 == 5:
+  print("ROMEU E JULIETA")
+elif sabor1 == 6:
+  print("MARGUERITA")
+elif sabor1 == 7:
+  print("BACON")
+elif sabor1 == 8:
+  print("LOMBINHO")
+elif sabor1 == 9:
+  print("LEITE CONDENSADO")
+elif sabor1 == 10:
+  print("CARNE DO SOL")
+else:
+  print("Opção Inválida")
+
+if sabor2 == 0:
+  print("Não há sabor")
+elif sabor2 == 1:
+  print("CALABRESA")
+elif sabor2 == 2:
+  print("FRANGO")
+elif sabor2 == 3:
+  print("FRANGO COM CATUPIRY")
+elif sabor2 == 4:
+  print("MUSSARELA")
+elif sabor2 == 5:
+  print("ROMEU E JULIETA")
+elif sabor2 == 6:
+  print("MARGUERITA")
+elif sabor2 == 7:
+  print("BACON")
+elif sabor2 == 8:
+  print("LOMBINHO")
+elif sabor2 == 9:
+  print("LEITE CONDENSADO")
+elif sabor2 == 10:
+  print("CARNE DO SOL")
+else:
+  print("Opção Inválida")
+
+print("*****Gostaria de alguma bebida?*****")
+print("1 - COCA-COLA")
+print("2 - GUARANÁ ANTARCTICA")
+print("3 - PEPSI")
+print("4 - FANTA LARANJA")
+print("5 - FANTA UVA")
+print("6 - NÃO QUERO BEBIDA")
+
+drink = int(input("Digite o número de sua bebida: "))
+
+if drink == 1:
+  print("COCA-COLA")
+elif drink == 2:
+  print("GUARANÁ ANTARCTICA")
+elif drink == 3:
+  print("PEPSI")
+elif drink == 4:
+  print("FANTA LARANJA")
+elif drink == 5:
+  print("FANTA UVA")
+elif drink == 6:
+  print("SEM BEBIDA")
+else:
+  print("Opção Inválida")
+
+
+
+end = input("Digite seu endereço: ")
+print(end)
+
+phone = input("Digite seu telefone: ")
+
+print(phone)
+
+print("Qual vai ser a sua forma de pagamento?")
+print("1 - DINHEIRO")
+print("2 - CARTÃO DE CRÉDITO/DÉBITO")
+print("3 - PIX")
+
+pgto = int(input("Digite o número da opção: "))
+
+if pgto == 1:
+  troco = input("Troco para quanto? Exemplo troco para 20: ")
+  print(troco) 
+  print("DINHEIRO")
+
+elif pgto == 2:
+  print("1 - VISA")
+  print("2 - MASTERCARD")
+  print("3 - AMERICAN EXPRESS")
+  print("4 - ELO")
+  print("5 - HIPERCARD")
+  card = int(input("Digite o número correspondente ao cartão: "))
+  if card == 1:
+    print("VISA")
+  elif card == 2:
+    print("MASTERCARD")
+  elif card == 3:
+    print("AMERICAN EXPRESS")
+  elif card == 4:
+    print("ELO")
+  elif card == 5:
+    print("HIPERCARD")
+  else:
+    print("Opção Inválida")
+
+elif pgto == 3:
+  print("PIX")
+  print("Por gentileza, fazer o envio ao PIX 99999998")
+
+else:
+  print("Opção Inválida")
+
+obs = input("Deseja fazer alguma observação? ")
